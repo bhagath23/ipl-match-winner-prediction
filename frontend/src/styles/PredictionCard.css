@@ -1,0 +1,65 @@
+.prediction-card {
+  margin-top: 40px;
+  background: #162032;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.prediction-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.winner-name {
+  font-size: 52px;
+  font-weight: 800;
+  text-align: center;
+
+  margin: 20px 0 35px;
+
+  line-height: 1.2;
+
+  word-break: keep-all;
+  overflow-wrap: break-word;
+
+  max-width: 100%;
+}
+
+.probability-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.team-name {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.team-percent {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 18px;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background: #394150;
+  border-radius: 20px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+  border-radius: 20px;
+}
+
+.progress-bar::-moz-progress-bar {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
