@@ -153,6 +153,37 @@ Returns
 
 ---
 
+## 🐳 Docker
+
+This project is fully containerized using Docker and Docker Compose.
+
+The application consists of two containers:
+
+- **Backend** – FastAPI + Machine Learning model
+- **Frontend** – React + Vite
+
+### 📁 Docker Structure
+
+```text
+IPL-match-winner-prediction/
+│
+├── backend/
+│   ├── app/
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── .dockerignore
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   ├── Dockerfile
+│   └── .dockerignore
+│
+├── artifacts/
+├── models/
+├── docker-compose.yml
+└── README.md
+
 # 📈 Future Improvements
 
 - SHAP Explainability
